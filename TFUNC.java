@@ -1,4 +1,5 @@
 // Posman H.C. Sitinjak 12S25048
+// Rafli Batubara 12S25008
 
 import java.util.*;
 import java.lang.Math;
@@ -11,7 +12,7 @@ public class TFUNC {
 
         n = Integer.parseInt(input.nextLine());
         hasil = pertambahan(n);
-        System.out.println(hasil);
+        System.out.println("Bilangan yang dimasukkan : " + hasil);
     }
     
     public static int pertambahan(int n) {
